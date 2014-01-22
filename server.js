@@ -4,6 +4,7 @@ var path = require('path');
 var mime = require('mime');
 var cache = {};
 
+
 // Sending error 404 file not found.
 function send404(response) {
   response.writeHead(404, {'Content-Type':'text/plain'});
