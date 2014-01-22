@@ -26,3 +26,28 @@ a {
   margin-bottom: lem;
   margin-right: 10px;
 }
+
+#room-list {
+  float: right;
+  width: 100px;
+  height: 300px;
+  overflow: auto;
+}
+
+#room-list div {
+  border-bottom: 1px solid #eee;
+}
+
+#room-list div:hover {
+  background-color: #ddd;
+}
+
+#send-messgae {
+  width: 700px;
+  margin-bottom: lem;
+  margin-right: lem;
+}
+
+#help {
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
